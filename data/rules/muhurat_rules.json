@@ -1,0 +1,166 @@
+{
+  "version": "0.1.0",
+  "activities": {
+    "vehicle_purchase": {
+      "allowed_choghadiya": [
+        "Shubh",
+        "Labh",
+        "Amrit",
+        "Chal"
+      ],
+      "preferred_hora": [
+        "Venus",
+        "Jupiter",
+        "Mercury"
+      ],
+      "blocked_periods": [
+        "rahu_kaal",
+        "yamaganda",
+        "gulika"
+      ],
+      "panchang_conditions": {
+        "tithi": {
+          "preferred": [
+            "Tritiya",
+            "Panchami",
+            "Shashthi",
+            "Ashtami",
+            "Dashami",
+            "Ekadashi",
+            "Trayodashi"
+          ],
+          "avoid": [],
+          "preferred_score": 10,
+          "avoid_score": 10
+        },
+        "nakshatra": {
+          "preferred": [
+            "Punarvasu",
+            "Pushya",
+            "Hasta",
+            "Chitra",
+            "Swati",
+            "Rohini",
+            "Mrigashira",
+            "Anuradha",
+            "Shravana",
+            "Dhanishtha",
+            "Shatabhisha",
+            "Revati"
+          ],
+          "avoid": [],
+          "preferred_score": 15,
+          "avoid_score": 15
+        },
+        "yoga": {
+          "preferred": [],
+          "avoid": [],
+          "preferred_score": 10,
+          "avoid_score": 10
+        },
+        "vara": {
+          "preferred": [
+            "Monday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Sunday"
+          ],
+          "avoid": [
+            "Tuesday",
+            "Saturday"
+          ],
+          "preferred_score": 5,
+          "avoid_score": 5
+        }
+      }
+    },
+    "proposal": {
+      "allowed_choghadiya": [
+        "Shubh",
+        "Labh",
+        "Amrit"
+      ],
+      "preferred_hora": [
+        "Venus",
+        "Moon",
+        "Jupiter"
+      ],
+      "blocked_periods": [
+        "rahu_kaal",
+        "yamaganda",
+        "gulika"
+      ],
+      "panchang_conditions": {
+        "tithi": {
+          "preferred": [],
+          "avoid": [],
+          "preferred_score": 10,
+          "avoid_score": 10
+        },
+        "nakshatra": {
+          "preferred": [],
+          "avoid": [],
+          "preferred_score": 15,
+          "avoid_score": 15
+        },
+        "yoga": {
+          "preferred": [],
+          "avoid": [],
+          "preferred_score": 10,
+          "avoid_score": 10
+        },
+        "vara": {
+          "preferred": [],
+          "avoid": [],
+          "preferred_score": 5,
+          "avoid_score": 5
+        }
+      }
+    },
+    "travel": {
+      "allowed_choghadiya": [
+        "Chal",
+        "Labh",
+        "Shubh",
+        "Amrit"
+      ],
+      "preferred_hora": [
+        "Mercury",
+        "Jupiter",
+        "Venus"
+      ],
+      "blocked_periods": [
+        "rahu_kaal",
+        "yamaganda",
+        "gulika"
+      ],
+      "panchang_conditions": {
+        "tithi": {
+          "preferred": [],
+          "avoid": [],
+          "preferred_score": 10,
+          "avoid_score": 10
+        },
+        "nakshatra": {
+          "preferred": [],
+          "avoid": [],
+          "preferred_score": 15,
+          "avoid_score": 15
+        },
+        "yoga": {
+          "preferred": [],
+          "avoid": [],
+          "preferred_score": 10,
+          "avoid_score": 10
+        },
+        "vara": {
+          "preferred": [],
+          "avoid": [],
+          "preferred_score": 5,
+          "avoid_score": 5
+        }
+      }
+    }
+  }
+}

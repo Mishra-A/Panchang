@@ -1,0 +1,24 @@
+{
+  "version": "0.1.0",
+  "periods_per_day": 24,
+  "day_periods": 12,
+  "night_periods": 12,
+  "planetary_sequence": [
+    "Sun",
+    "Venus",
+    "Mercury",
+    "Moon",
+    "Saturn",
+    "Jupiter",
+    "Mars"
+  ],
+  "weekday_lords": {
+    "monday": "Moon",
+    "tuesday": "Mars",
+    "wednesday": "Mercury",
+    "thursday": "Jupiter",
+    "friday": "Venus",
+    "saturday": "Saturn",
+    "sunday": "Sun"
+  }
+}

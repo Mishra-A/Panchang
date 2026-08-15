@@ -1,0 +1,36 @@
+{
+  "version": "0.1.0",
+  "rahu_kaal": {
+    "segments": {
+      "monday": 2,
+      "tuesday": 7,
+      "wednesday": 5,
+      "thursday": 6,
+      "friday": 4,
+      "saturday": 3,
+      "sunday": 8
+    }
+  },
+  "yamaganda": {
+    "segments": {
+      "monday": 5,
+      "tuesday": 4,
+      "wednesday": 3,
+      "thursday": 2,
+      "friday": 1,
+      "saturday": 0,
+      "sunday": 6
+    }
+  },
+  "gulika": {
+    "segments": {
+      "monday": 6,
+      "tuesday": 5,
+      "wednesday": 4,
+      "thursday": 3,
+      "friday": 2,
+      "saturday": 1,
+      "sunday": 0
+    }
+  }
+}

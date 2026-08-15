@@ -1,0 +1,14 @@
+{
+  "version": "0.1.0",
+  "day_periods": 8,
+  "night_periods": 8,
+  "types": [
+    "Shubh",
+    "Labh",
+    "Amrit",
+    "Chal",
+    "Rog",
+    "Kaal",
+    "Udveg"
+  ]
+}
