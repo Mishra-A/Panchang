@@ -64,7 +64,7 @@ def test_unsupported_location():
         "/api/v1/panchang/daily",
         params={
             "date": "2026-08-14",
-            "city": "Delhi",
+            "city": "xyz",
         },
     )
 
