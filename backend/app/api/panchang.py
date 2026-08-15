@@ -2,7 +2,18 @@ from datetime import date
 
 from fastapi import APIRouter, HTTPException, Query
 
-from backend.app.core.location import LUCKNOW
+from backend.app.core.location import (
+    LUCKNOW,
+    DELHI,
+    MUMBAI,
+    KOLKATA,
+    CHENNAI,
+    BENGALURU,
+    HYDERABAD,
+    JAIPUR,
+    AHMEDABAD,
+    PUNE,
+)
 
 from backend.app.panchang.daily_panchang import (
     build_daily_panchang,
@@ -33,7 +44,17 @@ router = APIRouter(
 
 LOCATIONS = {
     "lucknow": LUCKNOW,
-}
+    "delhi": DELHI,
+    "mumbai": MUMBAI,
+    "kolkata": KOLKATA,
+    "chennai": CHENNAI,
+    "bengaluru": BENGALURU,
+    "bangalore": BENGALURU,
+    "hyderabad": HYDERABAD,
+    "jaipur": JAIPUR,
+    "ahmedabad": AHMEDABAD,
+    "pune": PUNE,
+    }
 
 
 @router.get("/daily")
