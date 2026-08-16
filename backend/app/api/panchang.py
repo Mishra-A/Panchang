@@ -35,6 +35,10 @@ from backend.app.muhurat.ranking import (
     get_best_recommendations,
 )
 
+from backend.app.schemas.panchang import (
+    DailyPanchangResponse,
+)
+
 
 router = APIRouter(
     prefix="/api/v1/panchang",
@@ -57,7 +61,10 @@ LOCATIONS = {
     }
 
 
-@router.get("/daily")
+@router.get(
+    "/daily",
+    response_model=DailyPanchangResponse,
+ )
 def get_daily_panchang(
     target_date: date = Query(
         ...,
